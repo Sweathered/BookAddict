@@ -36,7 +36,7 @@ import com.mongodb.DBObject;
 
 
 @RestController
-@RequestMapping("/v1/")
+//@RequestMapping("/v1/")
 public class BookAddictAPI {
 	
 	public static final String GOOGLE_BOOKS_API_BASEURL = "https://www.googleapis.com/books/v1/volumes";
