@@ -124,6 +124,7 @@ public class BookAddictAPI {
 	public String logs(@RequestParam(required = false, value = "email") String email, @RequestParam(required = false, value = "apiKey") String apiKey) throws JsonProcessingException {
 		return getLogs(email, apiKey);
 	}
+	//end restful endpoints
 	
 	public String getSearchResults(String title, String isbn, Integer startIndex, Integer maxResults, String apiKey) throws JsonProcessingException {
 		Map<String, Object> jsonReviews = new LinkedHashMap<String, Object>();
