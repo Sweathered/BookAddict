@@ -49,6 +49,7 @@ public class BookAddictAPI {
 	public static final String PREMIUM_USERTYPE = "Premium";
 	public static final int API_USAGE_LIMIT = 250;
 	
+	//begin restful methods
 	@RequestMapping(value = "/", method = RequestMethod.GET, produces = "application/json")
 	public String welcome() {
 		return "Welcome to \"bookaddict.com\" Custom API !!!";
